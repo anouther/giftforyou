@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('i lovee youu kak ia').split('');
+        const titles = ('haii kamu!').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = " i wantt to tell you something about how IM VERYY VERYY LUCKY to havvee yoOuu and meett youu! ketemu kamu tu ngebuat aku bahagia bangett!?!? aku tauu ko sometimes i always make you madd to me but kamu gabakalan pernah bisa marah kan sama akuu? YEA i LOVE it ⭐️⭐️⭐️⭐️⭐️/⭐️⭐️⭐️⭐️⭐️ five out five stars!!! 100℅!! you're amazing and cute and wonderful!!";
+            subtitle.innerText = " hope u like it yeaaa, this flower is perfect like you 🤍🤍";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
