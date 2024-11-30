@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('Special flower for alwa').split('');
+        const titles = ('my love, pretty girl, alwaa.').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
