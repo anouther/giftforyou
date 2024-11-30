@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('haii kamu!').split('');
+        const titles = ('Special flower for alwa').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = " hope u like it yeaaa, this flower is perfect like you 🤍🤍";
+            subtitle.innerText = "alwaaa, i'm so in love with you, semangat terus ya sayang, cantikku! disini selalu ada aku yang bisa kamu andalin jangan khawatir ♡ please don't be in love with someone else and please don't leave me :( and last semangat ulangannya sayang. 🤍";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
